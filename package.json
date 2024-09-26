@@ -1,0 +1,21 @@
+{
+  "name": "betbot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src"
+  },
+  "keywords": [],
+  "author": "JOBIANSTECHIE",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer-core": "^22.15.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-anonymize-ua": "^2.4.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "tgsnake": "^3.3.1"
+  }
+}

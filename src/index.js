@@ -1,0 +1,1 @@
+const {startTelegramClient}=require('./telegram/app'),{getBetPage}=require('./coinryze/auth'),{email,password}=require('../config/app');((async()=>{const _0x46ec4c=await getBetPage(email,password);await startTelegramClient(_0x46ec4c);})());
